@@ -6,8 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask = "*"
-pylint = "*"
+pytest-cov = "*"
 
 [requires]
 python_version = "3.7"

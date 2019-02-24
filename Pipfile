@@ -6,7 +6,9 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-pytest-cov = "*"
+flask-restful = "*"
+passlib = "*"
+flask-jwt-extended = "*"
 
 [requires]
 python_version = "3.7"

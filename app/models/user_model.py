@@ -54,7 +54,7 @@ class UserModel:
         return None
 
     @staticmethod
-    def find_by_username(username):
+    def find_by_username(username=''):
         """ Find a single user by username """
         if not username:
             raise ValueError('Please provide the username')
@@ -64,13 +64,13 @@ class UserModel:
         return None
 
     @staticmethod
-    def remove_by_id(_id=''):
+    def remove_by_username(username):
         """ Remove a user by id """
-        if not _id:
+        if not username:
             raise ValueError('Please provide the id')
-        for key, user in enumerate(USERS):
-            if user['id'] == _id:
-                USERS.remove(key)
+        for user in USERS:
+            if user['username'] == username:
+                USERS.remove(user)
             return user
         return None
 

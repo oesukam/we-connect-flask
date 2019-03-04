@@ -6,7 +6,7 @@ from flask_jwt_extended import (
     get_jwt_identity
 )
 
-from app.resources.users import Signup
+from app.resources.users import *
 from app.models.user_model import UserModel
 
 
@@ -29,4 +29,5 @@ def create_app():
     api = Api(app, prefix='/api')
 
     api.add_resource(Signup, '/auth/register')
+    api.add_resource(Login, '/auth/login')
     return app

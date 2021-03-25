@@ -20,7 +20,7 @@ pylint==2.2.2
 pytest==4.3.0
 pytest-cov==2.6.1
 python-coveralls==2.9.1
-PyYAML==3.13
+PyYAML==5.4
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.1
@@ -50,7 +50,7 @@ pylint==2.2.2
 pytest==4.3.0
 pytest-cov==2.6.1
 python-coveralls==2.9.1
-PyYAML==3.13
+PyYAML==5.4
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.1
@@ -83,7 +83,7 @@ pytest==4.3.0
 pytest-cov==2.6.1
 python-coveralls==2.9.1
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.4
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.1
@@ -119,7 +119,7 @@ pytest==4.3.0
 pytest-cov==2.6.1
 python-coveralls==2.9.1
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.4
 requests==2.21.0
 six==1.12.0
 urllib3==1.24.1

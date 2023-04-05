@@ -6,8 +6,9 @@ branches:
   only:
     - develop
 install:
-  - pip install -r requirements.txt
+  - pip install pipenv
+  - pipenv install
 script:
-  - pytest  --cov --disable-warnings
+  - pytest app --cov --disable-warnings
 after_success:
   - coveralls

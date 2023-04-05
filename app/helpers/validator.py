@@ -1,7 +1,7 @@
 """Validator message"""
 import re
 messages = {
-    "required": "{} is required."
+    "required": "{} is required"
 }
 
 
